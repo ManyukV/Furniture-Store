@@ -1,0 +1,136 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1280px;
+}
+
+.red-hat-display-regular {
+  font-family: "Red Hat Display", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+
+.logo p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29.51px;
+}
+
+.header__top img {
+  width: 16px;
+  height: 16px;
+}
+
+.user img {
+  width: 16px;
+  height: 16px;
+  padding-right: 10px;
+}
+
+.line {
+  margin: 0px 50px;
+  border: 1px solid #0000005d;
+}
+
+.header__wrapper nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0px;
+}
+
+.header__wrapper nav a {
+  text-decoration: none;
+  margin-right: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+  color: #726e8d;
+}
+
+.header__wrapper nav a:hover {
+  color: #000000 !important;
+}
+
+.banner {
+  padding: 40px 0px;
+  position: relative;
+  animation-name: banner__appearance;
+  animation-duration: 2s;
+}
+
+.banner_wrapper {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2a254b;
+}
+
+.banner__title {
+  padding: 60px;
+  width: 513px;
+}
+
+.banner__title h2 {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44.8px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.banner__title button {
+  padding: 16px 32px;
+  background-color: #f9f9f941;
+  border: none;
+  color: #fff;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.banner__title button:hover {
+  cursor: pointer;
+}
+
+.banner__title p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #fff;
+  position: relative;
+  top: 200px;
+}
+
+.banner__img img {
+  height: 100%;
+}
+
+@keyframes banner__appearance {
+  0% {
+    left: -85%;
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+.features h3 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33.6px;
+  text-align: center;
+  color: #2a254b;
+}
